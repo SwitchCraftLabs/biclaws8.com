@@ -29,6 +29,11 @@ body {
   color: var(--color-light-01);
 }
 
+main {
+  position: relative;
+  z-index: 1;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +44,15 @@ h5 {
 }
 h1 {
   font-size: 3.5rem;
+}
+
+#particles {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 section {
